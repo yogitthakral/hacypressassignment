@@ -1,0 +1,15 @@
+{
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "execTimeout": 100000,
+  "taskTimeout": 100000,
+  "executionTimeout": 100000,
+  "integrationFolder": "cypress/TestSuite",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": true,
+    "json": false
+  }
+}

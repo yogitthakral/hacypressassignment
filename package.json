@@ -1,0 +1,18 @@
+{
+  "name": "hacypressassignment",
+  "version": "1.0.0",
+  "description": "Housing Anywhere Cypress Test Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "Yogit Thakral",
+  "license": "MITs",
+  "dependencies": {
+    "cypress": "^3.1.5",
+    "cypress-xpath": "^1.3.0",
+    "mochawesome": "^3.1.1",
+    "mocha": "^5.2.0"
+  }
+}
